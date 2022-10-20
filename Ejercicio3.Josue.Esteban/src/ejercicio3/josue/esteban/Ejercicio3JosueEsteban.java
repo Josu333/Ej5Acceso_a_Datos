@@ -25,7 +25,7 @@ public class Ejercicio3JosueEsteban {
         
         if (!f.exists()) {
             try {
-                if (f.mkdir()) {
+                if (f.mkdir()) {//crea un directorio -si no existe-
                     System.out.println("Directorio creado con exito!");
                 }
             }catch(Exception ex){
